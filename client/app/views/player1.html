@@ -1,0 +1,12 @@
+<div ng-controller="player1Controller as player1">
+  <h1>Your Doctrine</h1>
+  <h3>The Political Question Doctrine</h3>
+  <div>Taboo words</div>
+  <ul>
+    <li>Political</li>
+    <li>Question</li>
+    <li>Justiciable</li>
+  </ul>
+  <timer interval="1000" countdown="100">{{countdown}}</timer>
+  <button class="ui green button" ng-click="player1.stopTimer()">Correct Answer</button>
+</div>

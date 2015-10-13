@@ -2,12 +2,18 @@
 <html lang='en'>
 <head>
   <title>Name That Doctrine</title>
-
-  <link rel="stylesheet" href="/bower_components/semantic-ui/dist/semantic.min.css">
-  <script src="/bower_components/angular/angular.js"></script>
 </head>
-
-<body>
-  <div class="container">This is working</div>
+  <link rel="stylesheet" href="/bower_components/semantic-ui/dist/semantic.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="/bower_components/angular/angular.js"></script>
+  <script src="/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+  <script src="/bower_components/humanize-duration/humanize-duration.js"></script>
+  <script src="/bower_components/momentjs/moment.js"></script>
+  <script src="/bower_components/angular-timer/dist/angular-timer.js"></script>
+  <script src="app.js"></script>
+  <script src="/app/controllers/homeController.js"></script>
+  <script src="/app/controllers/player1Controller.js"></script>
+<body ng-app="app" class="ui two column centered grid margin-space">
+  <div ui-view></div>
 </body>
 </html>
