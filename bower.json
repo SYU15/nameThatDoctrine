@@ -1,0 +1,20 @@
+{
+  "name": "nameThatDoctrine",
+  "version": "0.0.1",
+  "authors": [
+    "Sarah Yu"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/lib"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "semantic": "~2.1.4",
+    "semantic-ui": "~2.1.4",
+    "ui": "~0.0.5"
+  }
+}
